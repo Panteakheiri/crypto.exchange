@@ -1,0 +1,64 @@
+.blackpart {
+    width: 100%;
+    height: 340px;
+    background-color: rgb(13, 0, 41);
+    box-shadow:rgb(25, 12, 54) 0px 0 3px, rgb(44, 32, 69) 0px 0 10px, rgb(143, 142, 142) 0px 0 20px;
+    position: relative;
+}
+.titlecontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: silver; 
+    position: absolute;
+    top: 0; 
+    left: 551px;
+    z-index: 100;
+}
+
+.titlecontainer img {
+    width: 70px;
+    height: 70px;
+}
+.titlecontainer h1 {
+    color: #eeeeee;
+    font-family: 'Cairo';
+    font-weight: lighter;
+    margin-left: 30px;
+    font-size: 2.5rem;
+    
+}
+.coincontainer {
+    background-color: #f6f6f6;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid silver;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    top: 200px;
+    left: 432px;
+    box-shadow: rgba(74,74,74, 0.24) 5px 20px 10px , rgba(74,74,74, 0.24) -5px -20px 10px  ;
+}
+.input {
+    margin-top: 50px;
+    width: 330px;
+    height: 20px;
+    border:1px solid silver ;
+    background-color: #ecf0f3;
+    padding: 8px;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.2s ease;
+    position: absolute;
+    top: 86px;
+    left: 584px;
+    z-index: 100;
+}
+.input:focus {
+    background-color: #e9eaea;
+    border: white;
+    box-shadow: -4px -3px 8px #ffffff inset,4px 3px 10px rgb(197, 197, 197) inset;;
+}
